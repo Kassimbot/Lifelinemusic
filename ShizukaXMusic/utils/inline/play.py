@@ -289,7 +289,7 @@ def slider_markup(
 
 ## Extra Shit
 
-close_keyboard = InlineKeyboardMarkup( 
+close_keyboard = InlineKeyboardButton( 
             [
                 [
                     InlineKeyboardButton(
