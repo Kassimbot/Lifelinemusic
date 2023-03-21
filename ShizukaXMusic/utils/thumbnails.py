@@ -12,10 +12,6 @@ import numpy as np
 from config import YOUTUBE_IMG_URL
 
 
-def make_col():
-    return (random.randint(0,255),random.randint(0,255),random.randint(0,255))
-
-
 def changeImageSize(maxWidth, maxHeight, image):
     widthRatio = maxWidth / image.size[0]
     heightRatio = maxHeight / image.size[1]
